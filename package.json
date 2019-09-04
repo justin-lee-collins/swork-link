@@ -1,0 +1,60 @@
+{
+  "name": "swork-link",
+  "version": "1.0.0",
+  "description": "Dynamic middleware linker for the swork framework.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json --coverage --all",
+    "lint": "tslint -p tsconfig.json",
+    "build": "tsc",
+    "prepare": "yarn build && yarn lint",
+    "prepublishOnly": "yarn test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "swork": "^1.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/service-worker-mock": "^2.0.0",
+    "coveralls": "^3.0.6",
+    "jest": "^24.8.0",
+    "service-worker-mock": "^2.0.3",
+    "ts-jest": "^24.0.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.18.0",
+    "typescript": "^3.3.3333"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "serviceworker",
+    "middleware",
+    "fetch",
+    "pipeline",
+    "FetchEvent",
+    "offline",
+    "activate",
+    "install",
+    "PWA",
+    "progressive",
+    "web",
+    "app",
+    "application",
+    "router"
+  ],
+  "icon": "",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-lee-collins/swork-link"
+  },
+  "homepage": "https://github.com/justin-lee-collins/swork-link"
+}
