@@ -1,6 +1,6 @@
 {
   "name": "swork-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic middleware linker for the swork framework.",
   "main": "dist/index.js",
   "scripts": {

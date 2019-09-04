@@ -46,7 +46,7 @@ app.use(/* 2nd middleware */)
 
 In the above example, the area service worker is injected into the global service worker pipeline resulting in the expected middleware execution order. This allows a global service worker module or bundle to be built independently and reused by any referencing service worker.
 
-### Methods
+## Methods
 
 **link** 
 
@@ -74,7 +74,7 @@ app.targetLink();
 app.targetLink("foo");
 ```
 
-### Notes
+## Notes
 
 `link` and `targetLink` can be used in a single bundle (see first example) or across multiple bundles. In the case of multiple bundles, `importScripts` becomes necessary.
 
