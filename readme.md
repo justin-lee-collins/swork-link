@@ -1,5 +1,7 @@
 # swork-link
 
+[![npm](https://img.shields.io/npm/v/swork-link)](https://www.npmjs.com/package/swork-link) [![travis ci](https://travis-ci.org/justin-lee-collins/swork-link.svg?branch=master)](https://travis-ci.org/justin-lee-collins/swork-link.svg?branch=master) [![coverage](https://img.shields.io/coveralls/github/justin-lee-collins/swork-link)](https://img.shields.io/coveralls/github/justin-lee-collins/swork-link) [![download](https://img.shields.io/npm/dw/swork-link)](https://img.shields.io/npm/dw/swork-link) [![Greenkeeper badge](https://badges.greenkeeper.io/justin-lee-collins/swork-link.svg)](https://greenkeeper.io/)
+
 swork-link is a swork middleware designed to allow the dynamic injection of new middleware into an existing middleware pipeline. It is built with TypeScript and async methods.
 
 **License**
